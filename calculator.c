@@ -103,7 +103,7 @@ void writeRCresultsToFile(struct RCCircuit *pointer, int step, int fStart, int f
 	}
 
 	for (int i = 0; i < step; i++) {
-		fprintf(filePointer, "hz:%d, xc:%.2f, z:%.2f, a:%.2f, uc:%.2f, ur:%.2f\n",
+		fprintf(filePointer, "f:%dhz, xc:%.2fohm, z:%.2fohm, a:%.2fmA, uc:%.2fV, ur:%.2fV\n",
 		fStart,
 		(pointer + i)->xc,
 		(pointer + i)->z,
@@ -132,7 +132,7 @@ void writeRLresultsToFile(struct RLCircuit *pointer, int step, int fStart, int f
 	}
 
 	for (int i = 0; i < step; i++) {
-		fprintf(filePointer, "hz:%d, xl:%.2f, z:%.2f, a:%.2f, ul:%.2f, ur:%.2f\n",
+		fprintf(filePointer, "f:%dhz, xl:%.2fohm, z:%.2fohm, a:%.2fmA, ul:%.2fV, ur:%.2fV\n",
 		fStart,
 		(pointer + i)->xl,
 		(pointer + i)->z,

@@ -1,5 +1,1 @@
-Hello!
-
-Using this calculator you need to have tkinter installed on your computer.
-
-then you can run the python file: run.py
+f:1hz, xl:0.01ohm, z:1.00ohm, a:999.98mA, ul:0.01V, ur:1.00V

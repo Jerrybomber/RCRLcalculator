@@ -1,8 +1,8 @@
-""""
-File:		run.py
-Author:		Jerry Karkainen
-Description:Graphigal user interface for calculator using c.
-""""
+
+##File:		run.py
+##Author:		Jerry Karkainen
+##Description:Graphigal user interface for calculator using c.
+
 
 from tkinter import *
 from tkinter import messagebox
@@ -30,7 +30,7 @@ def open_rc_circuit():
     resistance_label.pack(pady=10)
     resistance_entry = Entry(rc_window, width=10)
     resistance_entry.pack(pady=5)
-    capacitance_label = Label(rc_window, text="Capacitance:")
+    capacitance_label = Label(rc_window, text="Capacitance(in micros):")
     capacitance_label.pack(pady=10)
     capacitance_entry = Entry(rc_window, width=10)
     capacitance_entry.pack(pady=5)
