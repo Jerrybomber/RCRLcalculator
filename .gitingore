@@ -1,0 +1,18 @@
+# Ingore all object files:
+
+*.o
+
+# Ingore all backup files:
+
+*~
+
+# Ingore all text docements
+
+*.txt
+*.doc
+*.docx
+*.pdf
+
+# Ingore all executables:
+
+/Exercise1/HelloWorld
